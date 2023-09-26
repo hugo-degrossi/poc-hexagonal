@@ -1,12 +1,12 @@
 package demo.pochexagonal.domain.spi;
 
-import demo.pochexagonal.domain.entity.ChampionshipEntity;
+import demo.pochexagonal.domain.core.model.Championship;
 
 import java.util.Optional;
 
 public interface ChampionshipRepository {
 
-    Optional<ChampionshipEntity> findById(Long id);
+    Optional<Championship> findById(Long id);
 
-    void save(ChampionshipEntity championship);
+    void save(Championship championship);
 }

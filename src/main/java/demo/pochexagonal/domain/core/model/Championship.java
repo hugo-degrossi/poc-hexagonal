@@ -1,4 +1,4 @@
-package demo.pochexagonal.domain.entity;
+package demo.pochexagonal.domain.core.model;
 
 
 import lombok.AllArgsConstructor;
@@ -11,14 +11,14 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ChampionshipEntity {
+public class Championship {
 
     private Long id;
 
-    private List<DriverEntity> drivers = new ArrayList<>();
+    private List<Driver> drivers = new ArrayList<>();
 
 
-    public void addDriveToChampionship(DriverEntity driver) {
+    public void addDriveToChampionship(Driver driver) {
         this.drivers.add(driver);
     }
 

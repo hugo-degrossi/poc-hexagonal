@@ -1,4 +1,4 @@
-package demo.pochexagonal.domain.entity;
+package demo.pochexagonal.domain.core.model;
 
 
 import lombok.AllArgsConstructor;
@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DriverEntity {
+public class Driver {
     private Long id;
     private String firstname;
     private String lastname;
