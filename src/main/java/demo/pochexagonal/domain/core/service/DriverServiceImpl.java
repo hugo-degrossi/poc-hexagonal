@@ -1,10 +1,10 @@
 package demo.pochexagonal.domain.core.service;
 
-import demo.pochexagonal.domain.api.DriverServiceAPI;
+import demo.pochexagonal.domain.api.DriverService;
 import demo.pochexagonal.domain.core.model.Driver;
 import demo.pochexagonal.domain.spi.DriverRepository;
 
-public class DriverServiceImpl implements DriverServiceAPI {
+public class DriverServiceImpl implements DriverService {
 
     private final DriverRepository driverRepository;
 

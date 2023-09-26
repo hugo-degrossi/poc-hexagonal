@@ -1,11 +1,11 @@
 package demo.pochexagonal.domain.core.service;
 
-import demo.pochexagonal.domain.api.ChampionshipServiceAPI;
+import demo.pochexagonal.domain.api.ChampionshipService;
 import demo.pochexagonal.domain.core.model.Championship;
 import demo.pochexagonal.domain.core.model.Driver;
 import demo.pochexagonal.domain.spi.ChampionshipRepository;
 
-public class ChampionshipServiceImpl implements ChampionshipServiceAPI {
+public class ChampionshipServiceImpl implements ChampionshipService {
 
     private final ChampionshipRepository championshipRepository;
 
